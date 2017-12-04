@@ -12,6 +12,7 @@
  */
 
 get_header();
+query_posts('post_type=post&post_status=publish&posts_per_page=3&paged='. get_query_var('paged'));
 
 $container   = get_theme_mod( 'understrap_container_type' );
 $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
@@ -23,14 +24,15 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
 <div class="wrapper" id="wrapper-index">
 
-	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
+	<div class="container-fluid; ?>" id="content" tabindex="-1">
 
-		<div class="row">
+		<div class="row blogposts">
 
 			<!-- Do the left sidebar check and opens the primary div -->
 			<?php get_template_part( 'global-templates/left-sidebar-check', 'none' ); ?>
 
-			<main class="site-main" id="main">
+
+
 
 				<?php if ( have_posts() ) : ?>
 
@@ -56,8 +58,8 @@ $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );
 
 				<?php endif; ?>
 
-			</main><!-- #main -->
 
+        </div>
 			<!-- The pagination component -->
 			<?php understrap_pagination(); ?>
 

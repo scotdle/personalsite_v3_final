@@ -22,6 +22,7 @@
  */
 
 get_header();
+query_posts('post_type=post&post_status=publish&posts_per_page=10&paged='. get_query_var('paged'));
 
 $container   = get_theme_mod( 'understrap_container_type' );
 $sidebar_pos = get_theme_mod( 'understrap_sidebar_position' );

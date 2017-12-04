@@ -8,12 +8,13 @@
 ?>
 
 
-
+<div class="col-md-4">
 
 <article class="postcentered" <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
 	<header class="entry-header">
 
+		<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 		<?php the_title( sprintf( '<h2 class="entry-title"><i class="fa fa-envira blogposticon" aria-hidden="true"></i>
 <a href="%s" class="blogposttitle" rel="bookmark">', esc_url( get_permalink() ) ),
 		'</a></h2>' ); ?>
@@ -28,7 +29,7 @@
 
 	</header><!-- .entry-header -->
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+
 
 	<div class="entry-content">
 
@@ -52,3 +53,4 @@
 	</footer><!-- .entry-footer -->
 
 </article><!-- #post-## -->
+</div>

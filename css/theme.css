@@ -9184,6 +9184,9 @@ a.skip-link {
   padding: 20px;
   border: solid black 0.5px; }
 
+.blogposts {
+  padding: 20px; }
+
 .headerwidget {
   font-family: "Oswald";
   text-align: center;
@@ -9196,6 +9199,9 @@ a.skip-link {
   .headerwidget hr {
     width: 75%;
     border-color: black; }
+
+.entry-title {
+  padding: 15px; }
 
 .entry-content {
   font-family: "Nunito"; }

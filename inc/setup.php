@@ -123,3 +123,9 @@ if ( ! function_exists( 'all_excerpts_get_more_link' ) ) {
 	}
 }
 add_filter( 'wp_trim_excerpt', 'all_excerpts_get_more_link' );
+
+/* New excerpt length of 120 words*/
+function my_excerpt_length($length) {
+	return 20;
+}
+add_filter('excerpt_length', 'my_excerpt_length');
