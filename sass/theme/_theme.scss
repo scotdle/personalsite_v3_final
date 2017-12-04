@@ -1,0 +1,201 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+//Google Font Importing
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+//Google Font Variables
+
+$basefont: 'Nunito';
+$headerfont: 'Oswald';
+$font-weight-bold: 700;
+$mainsitecolor: #add9f4;
+$blogcolor: green;
+$blogsecondarycolor: black;
+
+
+
+
+.navbar{
+
+ border: 1px solid;
+ background-color: white;
+
+}
+
+
+
+.nav-link{
+ font-family: $basefont;
+ font-size: 20px;
+ color: black;
+ -o-transition:.5s;
+ -ms-transition:.5s;
+ -moz-transition:.5s;
+ -webkit-transition:.5s;
+
+
+ }
+
+.nav-link:hover {
+
+ color: cornflowerblue;
+
+
+}
+
+.navbar_brand_custom {
+
+ height: 40px;
+width: 40px;
+
+}
+
+.navbar-toggler {
+
+ border-color: black;
+
+}
+.custom-toggler
+
+{
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32'
+  xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(173, 217, 244, 1.0)'
+  stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+// Big Banner Styles Start ****
+
+.bigbannertext {
+
+ font-family: $headerfont;
+ text-align: center;
+ padding: 20px;
+ font-size: 2.5rem;
+ h1 {
+  font-weight: bold;
+
+  /* Custom, iPhone Retina */
+  @media only screen and (max-width: 400px) {
+
+   font-size: 2.0rem;
+
+  }
+ }
+}
+.homepage_content {
+
+background-color: red;
+}
+
+
+
+// Big Banner Styles End ****
+
+
+
+// Widget Styles Start ****
+
+.widget-title {
+
+ font-family: $headerfont;
+
+}
+
+.widget-area {
+ font-family: $basefont;
+ padding:20px;
+ border: solid black 0.5px;
+
+
+
+}
+
+// Widget Styles End ****
+
+
+// Blog Styles Start ****
+
+.headerwidget{
+
+ font-family: $headerfont;
+ text-align: center;
+ padding-top: 40px;
+
+     .headertitle {
+  letter-spacing: 10px;
+
+  }
+
+ .blogheadericon {
+
+  font-size: 30px;
+  color: $blogcolor;
+
+ }
+
+     hr{
+     width: 75%;
+      border-color: black;
+
+
+     }
+}
+
+.entry-content {
+ font-family: $basefont;
+
+
+
+}
+.postcentered{
+
+ text-align: center;
+ padding: 30px;
+ border: solid 1px black;
+}
+
+.blogposticon {
+font-size: 20px;
+
+}
+
+
+
+.entry-header {
+
+ font-family: $headerfont;
+ color: $blogcolor;
+ text-decoration: none;
+
+
+   .blogposttitle {
+    color: $blogcolor;
+
+
+   }
+
+
+}
+
+time{
+
+ color: $blogcolor;
+}
+
+.comments-link a , .edit-link a {
+
+ color: $blogcolor;
+
+}
+
+
+
+
+
+
+// Blog Styles End ****
+
+
+
