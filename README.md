@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Travis build: [![Build Status](https://travis-ci.org/holger1411/understrap.svg?branch=master)](https://travis-ci.org/holger1411/understrap) | Start talking: [![Gitter](https://img.shields.io/gitter/room/holger1411/understrap.svg?maxAge=2592000?style=flat-square)](https://gitter.im/holger1411/understrap)
 
 #### See: [Official Demo](https://understrap.com/understrap) | Read: [Official Docs Page](https://understrap.github.io/)
@@ -141,3 +142,7 @@ and of course
 
 
 [![Analytics](https://ga-beacon.appspot.com/UA-139292-31/chromeskel_a/readme)](https://github.com/igrigorik/ga-beacon)
+=======
+# personalsite_v3_final
+Final work in progress of my 3rd version of my personal site. Built with wordpress and Understrap. 
+>>>>>>> 959fa426e06c0875298bfd36501a9ad5dbe7cf23
