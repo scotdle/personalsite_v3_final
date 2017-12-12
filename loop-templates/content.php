@@ -15,7 +15,7 @@
 	<header class="entry-header">
 
 		<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
-		<?php the_title( sprintf( '<h2 class="entry-title"><i class="fa fa-envira blogposticon" aria-hidden="true"></i>
+		<?php the_title( sprintf( '<h2 class="blogposttitle"><i class="fa fa-envira blogposticon" aria-hidden="true"></i>
 <a href="%s" class="blogposttitle" rel="bookmark">', esc_url( get_permalink() ) ),
 		'</a></h2>' ); ?>
 

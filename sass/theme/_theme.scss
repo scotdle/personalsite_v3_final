@@ -65,6 +65,47 @@ width: 40px;
 }
 
 
+// Social Media Styles Start ****
+
+.social_media_container {
+
+
+ text-align: center;
+
+}
+
+
+.social_media_menu {
+
+ list-style: none;
+ text-decoration: none;
+ padding: 0px;
+
+      li, i {
+       display: inline-block;
+       padding: 30px;
+       color: black;
+       text-decoration: none;
+       -o-transition:.5s;
+       -ms-transition:.5s;
+       -moz-transition:.5s;
+       -webkit-transition:.5s;
+       li:hover{
+
+        color: cornflowerblue;
+
+       }
+        }
+
+
+}
+
+
+
+// Social Media Styles End ****
+
+
+
 // Big Banner Styles Start ****
 
 .bigbannertext {
@@ -184,15 +225,14 @@ font-size: 20px;
 .entry-header {
 
  font-family: $headerfont;
+ text-align: center;
+
+
+}
+
+.blogposttitle {
+
  color: $blogcolor;
- text-decoration: none;
-
-
-   .blogposttitle {
-    color: $blogcolor;
-
-
-   }
 
 
 }
@@ -216,4 +256,12 @@ time{
 // Blog Styles End ****
 
 
+// Contact Styles Start ****
 
+
+.contactpageform{
+
+ font-family: $basefont;
+}
+
+// Contact Styles End ****

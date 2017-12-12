@@ -9161,6 +9161,25 @@ a.skip-link {
 .custom-toggler {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32'\a   xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(173, 217, 244, 1.0)'\a   stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
 
+.social_media_container {
+  text-align: center; }
+
+.social_media_menu {
+  list-style: none;
+  text-decoration: none;
+  padding: 0px; }
+  .social_media_menu li, .social_media_menu i {
+    display: inline-block;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s; }
+    .social_media_menu li li:hover, .social_media_menu i li:hover {
+      color: cornflowerblue; }
+
 .bigbannertext {
   font-family: "Oswald";
   text-align: center;
@@ -9216,16 +9235,19 @@ a.skip-link {
 
 .entry-header {
   font-family: "Oswald";
-  color: green;
-  text-decoration: none; }
-  .entry-header .blogposttitle {
-    color: green; }
+  text-align: center; }
+
+.blogposttitle {
+  color: green; }
 
 time {
   color: green; }
 
 .comments-link a, .edit-link a {
   color: green; }
+
+.contactpageform {
+  font-family: "Nunito"; }
 
 /*
 * Use existing Bootstrap 4 classes and
