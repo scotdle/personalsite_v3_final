@@ -102,7 +102,49 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 		register_sidebar( array(
 			'name'          => __('Blog Page Header', 'understrap' ),
 			'id'            => 'custom-header-widget',
+			'description'   => 'Widget for the blog page header',
 			'before_widget' => '<div id="%1$s" class="chw-widget %2$s '. slbd_count_widgets( 'custom-header-widget' ) .'">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h1 class="header-title">',
+			'after_title'   => '</h1>',
+		) );
+
+		register_sidebar( array(
+			'name'          => __('Portfolio Project 1', 'understrap' ),
+			'id'            => 'portfolio_1',
+			'description'   => 'Place the first project in your portfolio in this widget',
+			'before_widget' => '<div id="%1$s" class = "project">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h1 class="header-title">',
+			'after_title'   => '</h1>',
+		) );
+
+		register_sidebar( array(
+			'name'          => __('Portfolio Project 2', 'understrap' ),
+			'id'            => 'portfolio_2',
+			'description'   => 'Place the second project in your portfolio in this widget',
+			'before_widget' => '<div id="%1$s" class = "project">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h1 class="header-title">',
+			'after_title'   => '</h1>',
+		) );
+
+
+		register_sidebar( array(
+			'name'          => __('Portfolio Project 3', 'understrap' ),
+			'id'            => 'portfolio_3',
+			'description'   => 'Place the third project in your portfolio in this widget',
+			'before_widget' => '<div id="%1$s" class = "project">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h1 class="header-title">',
+			'after_title'   => '</h1>',
+		) );
+
+		register_sidebar( array(
+			'name'          => __('Portfolio Project 4', 'understrap' ),
+			'id'            => 'portfolio_4',
+			'description'   => 'Place the forth project in your portfolio in this widget',
+			'before_widget' => '<div id="%1$s" class = "project">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h1 class="header-title">',
 			'after_title'   => '</h1>',

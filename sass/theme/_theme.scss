@@ -1,8 +1,40 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 
+img.aligncenter {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+img.alignright {
+ padding: 4px;
+ margin: 0 0 2px 7px;
+ display: inline;
+}
+
+img.alignleft {
+ padding: 4px;
+ margin: 0 7px 2px 0;
+ display: inline;
+}
+
+.alignright {
+ float: right;
+}
+
+.alignleft {
+ float: left;
+
+}
+
+
+
 //Google Font Importing
 @import url(https://fonts.googleapis.com/css?family=Nunito);
 @import url(https://fonts.googleapis.com/css?family=Oswald);
+
+
+
 
 //Google Font Variables
 
@@ -16,7 +48,7 @@ $blogsecondarycolor: black;
 
 
 
-.navbar{
+.navbar {
 
  border: 1px solid;
  background-color: white;
@@ -25,7 +57,7 @@ $blogsecondarycolor: black;
 
 
 
-.nav-link{
+.nav-link {
  font-family: $basefont;
  font-size: 20px;
  color: black;
@@ -90,7 +122,7 @@ width: 40px;
        -ms-transition:.5s;
        -moz-transition:.5s;
        -webkit-transition:.5s;
-       li:hover{
+       li:hover {
 
         color: cornflowerblue;
 
@@ -147,9 +179,6 @@ background-color: red;
 .widget-area {
  font-family: $basefont;
  padding:20px;
- border: solid black 0.5px;
-
-
 
 }
 
@@ -168,7 +197,7 @@ background-color: red;
 
 
 
-.headerwidget{
+.headerwidget {
 
  font-family: $headerfont;
  text-align: center;
@@ -186,7 +215,7 @@ background-color: red;
 
  }
 
-     hr{
+     hr {
      width: 75%;
       border-color: black;
 
@@ -195,7 +224,7 @@ background-color: red;
 }
 
 
-.entry-title{
+.entry-title {
 
  padding:15px;
 
@@ -208,7 +237,7 @@ background-color: red;
 
 
 }
-.postcentered{
+.postcentered {
 
  text-align: center;
  padding: 30px;
@@ -237,7 +266,7 @@ font-size: 20px;
 
 }
 
-time{
+time {
 
  color: $blogcolor;
 }
@@ -259,9 +288,38 @@ time{
 // Contact Styles Start ****
 
 
-.contactpageform{
+.contactpageform {
 
  font-family: $basefont;
 }
 
 // Contact Styles End ****
+
+
+// Portfolio Styles Start ****
+
+.projectborder {
+
+  border: solid black 1px;
+  border-radius: 5px;
+
+}
+
+.projectcontainer {
+
+  padding: 20px;
+
+
+}
+
+.project {
+
+font-family: $headerfont;
+text-align: center;
+
+
+
+}
+
+
+// Portfolio Styles End ****
