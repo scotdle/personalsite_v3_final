@@ -9276,9 +9276,17 @@ time {
 .projectcontainer {
   padding: 20px; }
 
-.project {
+.project_default {
   font-family: "Oswald";
   text-align: center; }
+
+.project_1 {
+  background-color: #add9f4;
+  padding: none; }
+
+.project_2 {
+  background-color: grey;
+  padding: none; }
 
 /*
 * Use existing Bootstrap 4 classes and

@@ -110,20 +110,20 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 		) );
 
 		register_sidebar( array(
-			'name'          => __('Portfolio Project 1', 'understrap' ),
+			'name'          => __('Portfolio Project 1 Picture', 'understrap' ),
 			'id'            => 'portfolio_1',
-			'description'   => 'Place the first project in your portfolio in this widget',
-			'before_widget' => '<div id="%1$s" class = "project">',
+			'description'   => 'Place the first project picture in your portfolio in this widget',
+			'before_widget' => '<div id="%1$s" class = "project_default">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h1 class="header-title">',
 			'after_title'   => '</h1>',
 		) );
 
 		register_sidebar( array(
-			'name'          => __('Portfolio Project 2', 'understrap' ),
+			'name'          => __('Portfolio Project 1 Content', 'understrap' ),
 			'id'            => 'portfolio_2',
-			'description'   => 'Place the second project in your portfolio in this widget',
-			'before_widget' => '<div id="%1$s" class = "project">',
+			'description'   => 'Place the first project content in your portfolio in this widget',
+			'before_widget' => '<div id="%1$s" class = "project_default">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h1 class="header-title">',
 			'after_title'   => '</h1>',
@@ -131,24 +131,25 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 
 
 		register_sidebar( array(
-			'name'          => __('Portfolio Project 3', 'understrap' ),
+			'name'          => __('Portfolio Project 2 Picture', 'understrap' ),
 			'id'            => 'portfolio_3',
-			'description'   => 'Place the third project in your portfolio in this widget',
-			'before_widget' => '<div id="%1$s" class = "project">',
+			'description'   => 'Place the second project picture in your portfolio in this widget',
+			'before_widget' => '<div id="%1$s" class = "project_default">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h1 class="header-title">',
 			'after_title'   => '</h1>',
 		) );
 
 		register_sidebar( array(
-			'name'          => __('Portfolio Project 4', 'understrap' ),
+			'name'          => __('Portfolio Project 2 Content', 'understrap' ),
 			'id'            => 'portfolio_4',
-			'description'   => 'Place the forth project in your portfolio in this widget',
-			'before_widget' => '<div id="%1$s" class = "project">',
+			'description'   => 'Place the second project content in your portfolio in this widget',
+			'before_widget' => '<div id="%1$s" class = "project_default">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h1 class="header-title">',
 			'after_title'   => '</h1>',
 		) );
+
 
 	}
 

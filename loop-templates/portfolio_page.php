@@ -22,10 +22,12 @@
 
 	<div class="entry-content">
 
-			<div class="row">
-			<div class="col-md-6 projectcontainer">
+			<div class="row project_1">
 
-				<div id="secondary" class="projectborder" role="complementary">
+                    <div class="col-md-6 projectcontainer">
+
+
+				<div id="secondary"  role="complementary">
 					<div class="widget-area">
 						<?php dynamic_sidebar( 'portfolio_1' ); ?>
 					</div><!-- .widget-area -->
@@ -35,7 +37,7 @@
 
                 <div class="col-md-6 projectcontainer">
 
-                    <div id="secondary" class="projectborder" role="complementary">
+                    <div id="secondary"  role="complementary">
                         <div class="widget-area">
 							<?php dynamic_sidebar( 'portfolio_2' ); ?>
                         </div><!-- .widget-area -->
@@ -45,10 +47,10 @@
 		</div>
 
 
-        <div class="row">
+        <div class="row project_2">
             <div class="col-md-6 projectcontainer">
 
-                <div id="secondary" class="projectborder" role="complementary">
+                <div id="secondary"  role="complementary">
                     <div class="widget-area">
 						<?php dynamic_sidebar( 'portfolio_3' ); ?>
                     </div><!-- .widget-area -->
@@ -58,7 +60,7 @@
 
             <div class="col-md-6 projectcontainer">
 
-                <div id="secondary" class="projectborder" role="complementary">
+                <div id="secondary"  role="complementary">
                     <div class="widget-area">
 				        <?php dynamic_sidebar( 'portfolio_4' ); ?>
                     </div><!-- .widget-area -->
