@@ -9279,14 +9279,15 @@ time {
 .project_default {
   font-family: "Oswald";
   text-align: center; }
+  .project_default a {
+    font-size: 20px;
+    color: black; }
 
 .project_1 {
-  background-color: #add9f4;
-  padding: none; }
+  background-color: #add9f4; }
 
 .project_2 {
-  background-color: grey;
-  padding: none; }
+  background-color: grey; }
 
 /*
 * Use existing Bootstrap 4 classes and

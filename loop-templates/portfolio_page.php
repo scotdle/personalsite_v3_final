@@ -29,7 +29,7 @@
 
 				<div id="secondary"  role="complementary">
 					<div class="widget-area">
-						<?php dynamic_sidebar( 'portfolio_1' ); ?>
+						<?php dynamic_sidebar( 'portfolio_1a' ); ?>
 					</div><!-- .widget-area -->
 				</div><!-- #secondary -->
 
@@ -39,7 +39,7 @@
 
                     <div id="secondary"  role="complementary">
                         <div class="widget-area">
-							<?php dynamic_sidebar( 'portfolio_2' ); ?>
+							<?php dynamic_sidebar( 'portfolio_1b' ); ?>
                         </div><!-- .widget-area -->
                     </div><!-- #secondary -->
 
@@ -52,7 +52,7 @@
 
                 <div id="secondary"  role="complementary">
                     <div class="widget-area">
-						<?php dynamic_sidebar( 'portfolio_3' ); ?>
+						<?php dynamic_sidebar( 'portfolio_2b' ); ?>
                     </div><!-- .widget-area -->
                 </div><!-- #secondary -->
 
@@ -62,7 +62,7 @@
 
                 <div id="secondary"  role="complementary">
                     <div class="widget-area">
-				        <?php dynamic_sidebar( 'portfolio_4' ); ?>
+				        <?php dynamic_sidebar( 'portfolio_2a' ); ?>
                     </div><!-- .widget-area -->
                 </div><!-- #secondary -->
 

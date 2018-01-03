@@ -317,6 +317,13 @@ time {
 font-family: $headerfont;
 text-align: center;
 
+ a  {
+
+  font-size: 20px;
+  color: black;
+
+ }
+
 
 
 }
@@ -324,14 +331,12 @@ text-align: center;
 .project_1 {
 
 background-color: $mainsitecolor;
-padding: none;
 
 }
 
 .project_2 {
 
  background-color: grey;
- padding: none;
 }
 
 

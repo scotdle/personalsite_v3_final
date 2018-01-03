@@ -90,6 +90,30 @@ if ( ! function_exists( 'understrap_theme_customize_register' ) ) {
 					'priority'    => '20',
 				)
 			) );
+
+
+		$wp_customize->add_section( 'add_div' , array(
+			'title'      => __('Add a portfolio project'),
+			'priority'   => 30,
+		) );
+
+
+		$wp_customize->add_setting("add_div_button", array(
+			"default" => "",
+			"transport" => "postMessage",
+		));
+
+
+	$wp_customize->add_control(new WP_Customize_Control(
+		$wp_customize,
+		"add_div_button",
+		array(
+			"label" => __("Add a div to portfolio", "customizer_ads_code_label"),
+			"section" => "add_div",
+			"settings" => "add_div_button",
+			"type" => "textarea",
+		)
+	));
 	}
 } // endif function_exists( 'understrap_theme_customize_register' ).
 add_action( 'customize_register', 'understrap_theme_customize_register' );
