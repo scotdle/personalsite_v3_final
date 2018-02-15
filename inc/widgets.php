@@ -151,6 +151,50 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 		) );
 
 
+		register_sidebar( array(
+			'name'          => __('Portfolio Project 3 Picture', 'understrap' ),
+			'id'            => 'portfolio_3a',
+			'description'   => 'Place the second project content in your portfolio in this widget',
+			'before_widget' => '<div id="%1$s" class = "project_default">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h1 class="header-title">',
+			'after_title'   => '</h1>',
+		) );
+
+
+		register_sidebar( array(
+			'name'          => __('Portfolio Project 3 Content', 'understrap' ),
+			'id'            => 'portfolio_3b',
+			'description'   => 'Place the second project content in your portfolio in this widget',
+			'before_widget' => '<div id="%1$s" class = "project_default">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h1 class="header-title">',
+			'after_title'   => '</h1>',
+		) );
+
+
+		register_sidebar( array(
+			'name'          => __('Portfolio Project 4 Picture', 'understrap' ),
+			'id'            => 'portfolio_4a',
+			'description'   => 'Place the second project content in your portfolio in this widget',
+			'before_widget' => '<div id="%1$s" class = "project_default">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h1 class="header-title">',
+			'after_title'   => '</h1>',
+		) );
+
+
+		register_sidebar( array(
+			'name'          => __('Portfolio Project 4 Content', 'understrap' ),
+			'id'            => 'portfolio_4b',
+			'description'   => 'Place the second project content in your portfolio in this widget',
+			'before_widget' => '<div id="%1$s" class = "project_default">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h1 class="header-title">',
+			'after_title'   => '</h1>',
+		) );
+
+
 	}
 
 } // endif function_exists( 'understrap_widgets_init' ).

@@ -69,6 +69,50 @@
             </div>
         </div>
 
+        <div class="row project_3">
+            <div class="col-md-6 projectcontainer">
+
+                <div id="secondary"  role="complementary">
+                    <div class="widget-area">
+						<?php dynamic_sidebar( 'portfolio_3a' ); ?>
+                    </div><!-- .widget-area -->
+                </div><!-- #secondary -->
+
+            </div>
+
+            <div class="col-md-6 projectcontainer">
+
+                <div id="secondary"  role="complementary">
+                    <div class="widget-area">
+						<?php dynamic_sidebar( 'portfolio_3b' ); ?>
+                    </div><!-- .widget-area -->
+                </div><!-- #secondary -->
+
+            </div>
+        </div>
+
+        <div class="row project_4">
+            <div class="col-md-6 projectcontainer">
+
+                <div id="secondary"  role="complementary">
+                    <div class="widget-area">
+						<?php dynamic_sidebar( 'portfolio_4b' ); ?>
+                    </div><!-- .widget-area -->
+                </div><!-- #secondary -->
+
+            </div>
+
+            <div class="col-md-6 projectcontainer">
+
+                <div id="secondary"  role="complementary">
+                    <div class="widget-area">
+						<?php dynamic_sidebar( 'portfolio_4a' ); ?>
+                    </div><!-- .widget-area -->
+                </div><!-- #secondary -->
+
+            </div>
+        </div>
+
 	</div>
 
 </article><!-- #post-## -->
