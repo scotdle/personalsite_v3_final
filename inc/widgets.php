@@ -194,6 +194,16 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 			'after_title'   => '</h1>',
 		) );
 
+		register_sidebar( array(
+			'name'          => __('Homepage Video', 'understrap' ),
+			'id'            => 'homepage_video',
+			'description'   => 'place a video or photo for your homepage here',
+			'before_widget' => '<div id="%1$s" class = "homepage_video">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h1 class="header-title">',
+			'after_title'   => '</h1>',
+		) );
+
 
 	}
 

@@ -9201,6 +9201,9 @@ img.alignleft {
     .social_media_menu li li:hover, .social_media_menu i li:hover {
       color: cornflowerblue; }
 
+.homepage_video {
+  margin: 0 auto; }
+
 .bigbannertext {
   font-family: "Oswald";
   text-align: center;
