@@ -9292,6 +9292,12 @@ time {
 .project_2 {
   background-color: grey; }
 
+.project_3 {
+  background-color: #1ED760; }
+
+.project_4 {
+  background-color: #cccccc; }
+
 /*
 * Use existing Bootstrap 4 classes and
 * variables to extend - override CF7 style
