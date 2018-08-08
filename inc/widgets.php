@@ -110,8 +110,8 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 		) );
 
 		register_sidebar( array(
-			'name'          => __('Portfolio Project 1 Picture', 'understrap' ),
-			'id'            => 'portfolio_1a',
+			'name'          => __('Featured Project', 'understrap' ),
+			'id'            => 'portfolio_0',
 			'description'   => 'Place the first project picture in your portfolio in this widget',
 			'before_widget' => '<div id="%1$s" class = "project_default">',
 			'after_widget'  => '</div>',
@@ -120,9 +120,9 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 		) );
 
 		register_sidebar( array(
-			'name'          => __('Portfolio Project 1 Content', 'understrap' ),
-			'id'            => 'portfolio_1b',
-			'description'   => 'Place the first project content in your portfolio in this widget',
+			'name'          => __('Portfolio Project 1 Picture', 'understrap' ),
+			'id'            => 'portfolio_1a',
+			'description'   => 'Place the second project content in your portfolio in this widget',
 			'before_widget' => '<div id="%1$s" class = "project_default">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h1 class="header-title">',
@@ -131,9 +131,19 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 
 
 		register_sidebar( array(
+			'name'          => __('Portfolio Project 1 Content', 'understrap' ),
+			'id'            => 'portfolio_1b',
+			'description'   => 'Place the second project content in your portfolio in this widget',
+			'before_widget' => '<div id="%1$s" class = "project_default">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h1 class="header-title">',
+			'after_title'   => '</h1>',
+		) );
+
+		register_sidebar( array(
 			'name'          => __('Portfolio Project 2 Picture', 'understrap' ),
 			'id'            => 'portfolio_2a',
-			'description'   => 'Place the second project picture in your portfolio in this widget',
+			'description'   => 'Place the first project picture in your portfolio in this widget',
 			'before_widget' => '<div id="%1$s" class = "project_default">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h1 class="header-title">',
@@ -143,7 +153,7 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 		register_sidebar( array(
 			'name'          => __('Portfolio Project 2 Content', 'understrap' ),
 			'id'            => 'portfolio_2b',
-			'description'   => 'Place the second project content in your portfolio in this widget',
+			'description'   => 'Place the first project content in your portfolio in this widget',
 			'before_widget' => '<div id="%1$s" class = "project_default">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h1 class="header-title">',
@@ -154,13 +164,12 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 		register_sidebar( array(
 			'name'          => __('Portfolio Project 3 Picture', 'understrap' ),
 			'id'            => 'portfolio_3a',
-			'description'   => 'Place the second project content in your portfolio in this widget',
+			'description'   => 'Place the second project picture in your portfolio in this widget',
 			'before_widget' => '<div id="%1$s" class = "project_default">',
 			'after_widget'  => '</div>',
 			'before_title'  => '<h1 class="header-title">',
 			'after_title'   => '</h1>',
 		) );
-
 
 		register_sidebar( array(
 			'name'          => __('Portfolio Project 3 Content', 'understrap' ),
@@ -193,6 +202,11 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 			'before_title'  => '<h1 class="header-title">',
 			'after_title'   => '</h1>',
 		) );
+
+
+
+
+
 
 		register_sidebar( array(
 			'name'          => __('Homepage Video', 'understrap' ),

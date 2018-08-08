@@ -63,8 +63,6 @@ html {
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent; }
 
-@-ms-viewport {
-  width: device-width; }
 
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -9286,8 +9284,6 @@ time {
     font-size: 20px;
     color: black; }
 
-.project_1 {
-  background-color: #add9f4; }
 
 .project_2 {
   background-color: grey; }

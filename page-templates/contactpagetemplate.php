@@ -42,14 +42,14 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <script>
 
-    const namegiven = document.getElementsByClassName("your-name")[0].firstChild;
+    var namegiven = document.getElementsByClassName("your-name")[0].firstChild;
 
-    namegiven.addEventListener("blur", nameAlert);
+    namegiven.addEventListener("keyup", nameAlert);
 
     function nameAlert() {
         entrytitle = document.getElementsByClassName("entry-title")[0];
 
-      const  entrytitlemessage = "nice to meet you " + namegiven.value + "!";
+      var  entrytitlemessage = "nice to meet you " + namegiven.value + "!";
 
         entrytitle.innerHTML =  entrytitlemessage;
 

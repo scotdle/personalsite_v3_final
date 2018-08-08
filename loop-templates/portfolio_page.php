@@ -22,14 +22,54 @@
 
 	<div class="entry-content">
 
-			<div class="row project_1">
+        <div class="row project_0">
+
+            <div class="col-md-12 projectcontainer">
+
+
+                <div id="secondary"  role="complementary">
+                    <div class="widget-area">
+						<?php dynamic_sidebar( 'portfolio_0' ); ?>
+                    </div><!-- .widget-area -->
+                </div><!-- #secondary -->
+
+            </div>
+
+        </div>
+
+        <div class="row project_1">
+            <div class="col-md-6 projectcontainer">
+
+                <div id="secondary"  role="complementary">
+                    <div class="widget-area">
+						<?php dynamic_sidebar( 'portfolio_1b' ); ?>
+                    </div><!-- .widget-area -->
+                </div><!-- #secondary -->
+
+            </div>
+
+            <div class="col-md-6 projectcontainer">
+
+                <div id="secondary"  role="complementary">
+                    <div class="widget-area">
+						<?php dynamic_sidebar( 'portfolio_1a' ); ?>
+                    </div><!-- .widget-area -->
+                </div><!-- #secondary -->
+
+            </div>
+        </div>
+
+
+
+
+        <div class="row project_2">
 
                     <div class="col-md-6 projectcontainer">
 
 
 				<div id="secondary"  role="complementary">
 					<div class="widget-area">
-						<?php dynamic_sidebar( 'portfolio_1a' ); ?>
+						<?php dynamic_sidebar( 'portfolio_2a' ); ?>
 					</div><!-- .widget-area -->
 				</div><!-- #secondary -->
 
@@ -39,7 +79,7 @@
 
                     <div id="secondary"  role="complementary">
                         <div class="widget-area">
-							<?php dynamic_sidebar( 'portfolio_1b' ); ?>
+							<?php dynamic_sidebar( 'portfolio_2b' ); ?>
                         </div><!-- .widget-area -->
                     </div><!-- #secondary -->
 
@@ -47,34 +87,12 @@
 		</div>
 
 
-        <div class="row project_2">
-            <div class="col-md-6 projectcontainer">
-
-                <div id="secondary"  role="complementary">
-                    <div class="widget-area">
-						<?php dynamic_sidebar( 'portfolio_2b' ); ?>
-                    </div><!-- .widget-area -->
-                </div><!-- #secondary -->
-
-            </div>
-
-            <div class="col-md-6 projectcontainer">
-
-                <div id="secondary"  role="complementary">
-                    <div class="widget-area">
-				        <?php dynamic_sidebar( 'portfolio_2a' ); ?>
-                    </div><!-- .widget-area -->
-                </div><!-- #secondary -->
-
-            </div>
-        </div>
-
         <div class="row project_3">
             <div class="col-md-6 projectcontainer">
 
                 <div id="secondary"  role="complementary">
                     <div class="widget-area">
-						<?php dynamic_sidebar( 'portfolio_3a' ); ?>
+						<?php dynamic_sidebar( 'portfolio_3b' ); ?>
                     </div><!-- .widget-area -->
                 </div><!-- #secondary -->
 
@@ -84,7 +102,7 @@
 
                 <div id="secondary"  role="complementary">
                     <div class="widget-area">
-						<?php dynamic_sidebar( 'portfolio_3b' ); ?>
+				        <?php dynamic_sidebar( 'portfolio_3a' ); ?>
                     </div><!-- .widget-area -->
                 </div><!-- #secondary -->
 
@@ -96,7 +114,7 @@
 
                 <div id="secondary"  role="complementary">
                     <div class="widget-area">
-						<?php dynamic_sidebar( 'portfolio_4b' ); ?>
+						<?php dynamic_sidebar( 'portfolio_4a' ); ?>
                     </div><!-- .widget-area -->
                 </div><!-- #secondary -->
 
@@ -106,12 +124,16 @@
 
                 <div id="secondary"  role="complementary">
                     <div class="widget-area">
-						<?php dynamic_sidebar( 'portfolio_4a' ); ?>
+						<?php dynamic_sidebar( 'portfolio_4b' ); ?>
                     </div><!-- .widget-area -->
                 </div><!-- #secondary -->
 
             </div>
         </div>
+
+
+
+
 
 	</div>
 
