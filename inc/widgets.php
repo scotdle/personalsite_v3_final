@@ -219,6 +219,16 @@ if ( ! function_exists( 'understrap_widgets_init' ) ) {
 		) );
 
 
+register_sidebar( array(
+			'name'          => __('Photo Gallery', 'understrap' ),
+			'id'            => 'photo_gallery',
+			'description'   => 'place a picture gallery here',
+			'before_widget' => '<div id="%1$s" class = "picture_gallery">',
+			'after_widget'  => '</div>',
+			'before_title'  => '<h1 class="header-title">',
+			'after_title'   => '</h1>',
+		) );
+
 	}
 
 } // endif function_exists( 'understrap_widgets_init' ).
