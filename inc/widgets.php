@@ -228,7 +228,42 @@ register_sidebar( array(
 			'before_title'  => '<h1 class="header-title">',
 			'after_title'   => '</h1>',
 		) );
-
+			register_sidebar( array(
+        			'name'          => __(' Video 1', 'understrap' ),
+        			'id'            => 'video1',
+        			'description'   => 'place 1st video here',
+        			'before_widget' => '<div id="%1$s" class = "video1">',
+        			'after_widget'  => '</div>',
+        			'before_title'  => '<h1 class="header-title">',
+        			'after_title'   => '</h1>',
+        		) );
+	register_sidebar( array(
+        			'name'          => __(' Video 2', 'understrap' ),
+        			'id'            => 'video2',
+        			'description'   => 'place 1st video here',
+        			'before_widget' => '<div id="%1$s" class = "video2">',
+        			'after_widget'  => '</div>',
+        			'before_title'  => '<h1 class="header-title">',
+        			'after_title'   => '</h1>',
+        		) );
+	register_sidebar( array(
+        			'name'          => __(' Video 3', 'understrap' ),
+        			'id'            => 'video3',
+        			'description'   => 'place 1st video here',
+        			'before_widget' => '<div id="%1$s" class = "video3">',
+        			'after_widget'  => '</div>',
+        			'before_title'  => '<h1 class="header-title">',
+        			'after_title'   => '</h1>',
+        		) );
+		register_sidebar( array(
+            			'name'          => __(' Video 4', 'understrap' ),
+            			'id'            => 'video4',
+            			'description'   => 'place 1st video here',
+            			'before_widget' => '<div id="%1$s" class = "video4">',
+            			'after_widget'  => '</div>',
+            			'before_title'  => '<h1 class="header-title">',
+            			'after_title'   => '</h1>',
+            		) );
 	}
 
 } // endif function_exists( 'understrap_widgets_init' ).
