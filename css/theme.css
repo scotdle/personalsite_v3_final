@@ -9200,7 +9200,8 @@ img.alignleft {
       color: cornflowerblue; }
 
 .homepage_video {
-  margin: 0 auto; }
+  margin: 0 auto;
+text-align: center}
 
 .bigbannertext {
   font-family: "Oswald";
